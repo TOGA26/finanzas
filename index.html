@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finanzas Hina · Dashboard</title>
+    <link rel="icon" type="image/png" href="logo2.png">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -464,7 +465,7 @@
                 <div class="budget-summary">
                     <div class="budget-stat">
                         <div class="budget-stat-label">Presupuesto</div>
-                        <div class="budget-stat-value">S/ 2,050</div>
+                        <div class="budget-stat-value">S/ 1,010</div>
                     </div>
                     <div class="budget-stat">
                         <div class="budget-stat-label">Gastado</div>
@@ -472,7 +473,7 @@
                     </div>
                     <div class="budget-stat">
                         <div class="budget-stat-label">Disponible</div>
-                        <div class="budget-stat-value success" id="totalDisponible">S/ 2,050</div>
+                        <div class="budget-stat-value success" id="totalDisponible">S/ 1,010</div>
                     </div>
                     <div class="budget-stat">
                         <div class="budget-stat-label">% Usado</div>
@@ -500,10 +501,10 @@
     const API_URL = 'https://finanzas-api.azurewebsites.net/api/registrar';
 
     const categorias = [
-        { nombre: 'Necesidades',  emoji: '🏠', meta: 1025.00, real: 450 },
-        { nombre: 'Educación',    emoji: '📚', meta: 307.50,  real: 290 },
-        { nombre: 'Ahorro',       emoji: '💰', meta: 512.50,  real: 512 },
-        { nombre: 'Diversión',    emoji: '🎉', meta: 205.00,  real: 210 },
+        { nombre: 'Necesidades',  emoji: '🏠', meta: 505.00, real: 450 },
+        { nombre: 'Educación',    emoji: '📚', meta: 151.00,  real: 290 },
+        { nombre: 'Ahorro',       emoji: '💰', meta: 252.00,  real: 512 },
+        { nombre: 'Diversión',    emoji: '🎉', meta: 101.00,  real: 210 },
     ];
 
     /* ── TABS ── */
